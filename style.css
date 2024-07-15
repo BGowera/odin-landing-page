@@ -13,7 +13,7 @@ section {
 button {
 	padding: 0.5rem 3rem;
 	border-radius: 0.5rem;
-    border:none;
+	border: none;
 }
 
 /* Nav styles */
@@ -40,10 +40,9 @@ button {
 	text-decoration: none;
 }
 
-
 /* hero section */
 .hero {
-    background-color: #1f2937;
+	background-color: #1f2937;
 	display: flex;
 	justify-content: space-between;
 }
@@ -58,9 +57,9 @@ button {
 	margin-bottom: 0.5rem;
 }
 
-.hero-cta{
-    background-color:#3882f6 ;
-    font-size: 1.2rem;
+.hero-cta-btn {
+	background-color: #3882f6;
+	font-size: 1.2rem;
 }
 
 .hero-right {
@@ -81,61 +80,88 @@ button {
 
 /* info section */
 
-.info>*{
-    margin-bottom:1rem;
+.info > * {
+	margin-bottom: 1rem;
 }
 
-.info-heading{
-    font-size: 2.25rem;
-    font-weight: ;
-    text-align: center;
+.info-heading {
+	font-size: 2.25rem;
+	font-weight: 700;
+	text-align: center;
 }
 
-.info-img-container{
-    display: flex;
-    justify-content: space-around;
+.info-img-container {
+	display: flex;
+	justify-content: space-around;
 }
 
-.info-img-placeholder{
-    width:6rem;
-    display:flex;
-    flex-direction: column;
-    align-items: center ;
+.info-img-placeholder {
+	width: 6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.fake-img{
-    border: .2rem solid #3882f6;
-    border-radius: 1rem;
-    width:6rem;
-    height:6rem;
-    margin-bottom:.5rem;
+.fake-img {
+	border: 0.2rem solid #3882f6;
+	border-radius: 1rem;
+	width: 6rem;
+	height: 6rem;
+	margin-bottom: 0.5rem;
 }
 
-.info-img-caption{
-    font-size: .8rem;
-    width: 5rem;
-    font-weight: 400;
+.info-img-caption {
+	font-size: 0.8rem;
+	width: 5rem;
+	font-weight: 400;
 }
 
 /* quote section */
-.quote-section{
-background-color: #e5e7eb;
-display: flex;
-justify-content:center ;
+.quote-section {
+	background-color: #e5e7eb;
+	display: flex;
+	justify-content: center;
 }
 
-.quote-div{
-    width:80%;
+.quote-div {
+	width: 80%;
 }
 
-.quote{
-    font-size: 2.25rem;
-    font-style: italic;
-    font-weight: 200;
-    text-align: center;
+.quote {
+	font-size: 2.25rem;
+	font-style: italic;
+	font-weight: 200;
+	text-align: center;
 }
 
-.attribution{
-    font-weight: 700;
-    text-align: end;
+.attribution {
+	font-weight: 700;
+	text-align: end;
+}
+
+/* cta section */
+
+.cta-section{
+    display: flex;
+    justify-content: center;
+}
+
+.cta-div {
+    width: 70%;
+	background-color: #3882f6;
+	padding: 1rem;
+    border-radius: .3rem;
+    display:flex ;
+    align-items:center ;
+    justify-content: space-between;
+}
+
+.cta-heading, .cta-para,.cta-btn{
+    color:#ebebeb;
+}
+
+.cta-btn{
+    align-self: flex-end;
+    background: inherit;
+    border: 2px solid #ebebeb;
 }

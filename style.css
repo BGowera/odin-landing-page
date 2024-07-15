@@ -16,13 +16,19 @@ button {
 	border: none;
 }
 
+.nav,.hero,.footer{
+	background-color: #1f2937;
+}
+
+nav,footer{
+    padding:1rem;
+}
+
 /* Nav styles */
 .nav {
-	background-color: #1f2937;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 1rem;
 }
 .header-logo-placeholder {
 	color: #ebebeb;
@@ -42,7 +48,6 @@ button {
 
 /* hero section */
 .hero {
-	background-color: #1f2937;
 	display: flex;
 	justify-content: space-between;
 }
@@ -164,4 +169,15 @@ button {
     align-self: flex-end;
     background: inherit;
     border: 2px solid #ebebeb;
+}
+
+/* footer */
+
+.footer{
+    margin: auto;
+}
+
+.footer>p{
+    	color: #ebebeb;
+        text-align: center;
 }
